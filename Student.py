@@ -22,6 +22,6 @@ if __name__ == "__main__":
     print("\nStudent Mark Dictionary")
     
     for student, subjects in student_marks.items():
-        print(f"\n{student}:")
+        print(student)
         for subject, mark in subjects.items():
-            print(f"{subject}: {mark}")
+            print(subject,mark)
